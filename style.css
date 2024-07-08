@@ -1,59 +1,44 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-}
+
 body{
-font-family: 'Times New Roman', Times,serif;
-line-height: 1.6;
-background-color: gainsboro;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: gainsboro;
 }
 
 .header{
-  background-color: black;
-  color:#fff;
-  padding: 10px 0;
-  position: sticky;
-  top: 0;
-  /*z-indeex: 100; */
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+
 }
 
 .navbar{
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
-.navlink{
-  color:#fff;
-  text-decoration: none;
-  /*tblr */
-  padding: 10px 20x;
-
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;    
 }
 
 .nav-link:hover{
-  background-color: greenyellow;
+    background-color: greenyellow;
 }
 
 .section{
-  padding: 60px 20px;
-  text-align: center;
-  color: black;
+    text-align: center;
+    color: bisque;
 }
 
 .home{
-  background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
-
-}
-
-.about, .skills{
-  background-color: #fff;
+    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
 }
