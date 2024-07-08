@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+font-family: 'Times New Roman', Times,serif;
+line-height: 1.6;
+background-color: gainsboro;
+}
+
+.header{
+  background-color: black;
+  color:#fff;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  /*z-indeex: 100; */
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+}
+
+.navlink{
+  color:#fff;
+  text-decoration: none;
+  /*tblr */
+  padding: 10px 20x;
+
+}
+
+.nav-link:hover{
+  background-color: greenyellow;
+}
+
+.section{
+  padding: 60px 20px;
+  text-align: center;
+  color: black;
+}
+
+.home{
+  background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+
+}
+
+.about, .skills{
+  background-color: #fff;
+}
